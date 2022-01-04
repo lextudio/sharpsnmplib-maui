@@ -7,4 +7,8 @@ The sample project uses MAUI to support,
 * macOS
 * Windows
 
-To run it you need latest Visual Studio 2022 for Windows and Mac.
+To run it on macOS,
+
+* `dotnet build -t:Run -f net6.0-android`
+* `dotnet build -t:Run -f net6.0-ios`
+* `dotnet build -t:Run -f net6.0-maccatalyst`
