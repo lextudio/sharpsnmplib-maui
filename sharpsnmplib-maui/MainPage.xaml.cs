@@ -1,4 +1,4 @@
-﻿using Lextm.SharpSnmpLib;
+using Lextm.SharpSnmpLib;
 using Lextm.SharpSnmpLib.Messaging;
 using System.Net;
 
@@ -17,8 +17,8 @@ public partial class MainPage : ContentPage
     {
         try
         {
-            btnTest.IsEnabled = false;            
-            txtResult.Text = string.Empty;
+            btnTest.IsEnabled = false;
+            txtResult.Text = "Loading...";
             txtResult.IsVisible = true;
             if (!IPAddress.TryParse(txtAddress.Text, out IPAddress address))
             {
